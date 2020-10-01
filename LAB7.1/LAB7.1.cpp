@@ -1,7 +1,7 @@
 ﻿#include <stdio.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
-float main()
+int main()
 {
 	float a;
 	scanf_s("%f", &a);
