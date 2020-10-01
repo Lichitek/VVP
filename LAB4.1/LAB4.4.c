@@ -1,5 +1,4 @@
 ﻿#include <stdio.h>
-#include <math.h>
 int main()
 {
 	float a, b, del, sum, pr, ras;
@@ -10,5 +9,4 @@ int main()
 	del = (a * a) / (b * b);
 	printf("%.0f\n%.0f\n", sum, ras);
 	printf("%.0f\n%.3f\n", pr, del);
-	return 0;
 }

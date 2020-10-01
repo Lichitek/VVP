@@ -1,5 +1,4 @@
 ﻿#include <stdio.h>
-#include <math.h>
 float Pi = 3.14;
 float main()
 {

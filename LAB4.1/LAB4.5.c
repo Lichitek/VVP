@@ -5,7 +5,7 @@ int main()
 
 	float a, b, del, sum, pr, ras;
 	scanf_s("%f%f", &a, &b);
-	long labd(long a);
+	long labs(long a);
 	long labs(long b);
 	sum = a * a + b * b;
 	ras = a * a - b * b;
@@ -13,5 +13,4 @@ int main()
 	del = (a * a) / (b * b);
 	printf("%.0f\n%.0f\n", sum, ras);
 	printf("%.0f\n%.3f\n", pr, del);
-	return 0;
 }
