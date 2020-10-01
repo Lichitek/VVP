@@ -7,5 +7,5 @@ int main()
 	c = b;
 	b = a;
 	a = k;
-	printf("%d\n%d\n%d", a, b, c);
+	printf("%d %d %d", a, b, c);
 }

@@ -4,6 +4,7 @@ int main()
 {
 	int x, y;
 	scanf_s("%i", &x);
-	y = 4 * pow((x-3), 6) - 7 * pow((x-3), 2) +2;
+	x = x - 3;
+	y = 4 * pow((x), 6) - 7 * pow((x), 2) +2;
 	printf("%i", y);
 }
