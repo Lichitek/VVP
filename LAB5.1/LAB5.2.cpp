@@ -8,5 +8,4 @@ int main()
 	bc = abs(int(b - c));
 	sum = ac + bc;
 	printf("%d\n%d\n%d", ac, bc, sum);
-	return 0;
 }
